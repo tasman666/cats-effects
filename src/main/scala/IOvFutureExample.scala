@@ -4,7 +4,7 @@ import scala.concurrent.{Await, ExecutionContext, Future}
 import scala.concurrent.duration._
 import scala.language.postfixOps
 
-object IOExample {
+object IOvFutureExample {
 
   implicit val ec: ExecutionContext = ExecutionContext.global
 
